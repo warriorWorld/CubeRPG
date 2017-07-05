@@ -29,12 +29,18 @@ public class WorldInteraction : MonoBehaviour
         if (Physics.Raycast(interactionRay, out interactionInfo, Mathf.Infinity))
         {
             GameObject interactedObject = interactionInfo.collider.gameObject;
-            if (interactedObject.tag == "Interactable Object")
+            if (interactedObject.tag == "Enemy")
+            {
+                Debug.Log("点到敌人了");
+                interactedObject.GetComponent<Interactable>().MoveToInteraction(playerAgent);
+            }
+            else if (interactedObject.tag == "Interactable Object")
             {
                 Debug.Log("点到可互动物品了");
                 interactedObject.GetComponent<Interactable>().MoveToInteraction(playerAgent);
             }
-            else {
+            else
+            {
                 playerAgent.stoppingDistance = 0f;
                 playerAgent.destination = interactionInfo.point;
             }
