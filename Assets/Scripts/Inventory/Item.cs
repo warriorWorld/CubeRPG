@@ -10,6 +10,7 @@ public class Item {
 		Consumable,
 		Quest
 	}
+    //string enum convert
 	[JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
 	public ItemTypes ItemType{ get; set;}
 	public List<BaseStat> Stats{ get; set;}
