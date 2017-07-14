@@ -104,8 +104,10 @@
     <Compile Include="Assets\Scripts\Interactable\Interactable.cs" />
     <Compile Include="Assets\Scripts\Interactable\NPCs\NPCs.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryController.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\Inventory\UIEventHandler.cs" />
     <Compile Include="Assets\Scripts\Stat\BaseStat.cs" />
     <Compile Include="Assets\Scripts\Stat\CharacterStats.cs" />
     <Compile Include="Assets\Scripts\Stat\StatBonus.cs" />
