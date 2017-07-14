@@ -105,13 +105,14 @@
     <Compile Include="Assets\Scripts\Interactable\NPCs\NPCs.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryUIItem.cs" />
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemDatabase.cs" />
-    <Compile Include="Assets\Scripts\Inventory\UIEventHandler.cs" />
     <Compile Include="Assets\Scripts\Stat\BaseStat.cs" />
     <Compile Include="Assets\Scripts\Stat\CharacterStats.cs" />
     <Compile Include="Assets\Scripts\Stat\StatBonus.cs" />
     <Compile Include="Assets\Scripts\UI\DialogueSystem.cs" />
+    <Compile Include="Assets\Scripts\UI\UIEventHandler.cs" />
     <Compile Include="Assets\Scripts\WorldInteraction.cs" />
   </ItemGroup>
   <ItemGroup>

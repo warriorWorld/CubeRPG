@@ -14,7 +14,8 @@ public class InventoryController : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-        else {
+        else
+         {
             Instance = this;
         }
         playerWeaponController = GetComponent<PlayerWeaponController>();
