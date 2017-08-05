@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryController : MonoBehaviour {
     public static InventoryController Instance { get; set; }
 	public PlayerWeaponController playerWeaponController;
     public ConsumableController consumableController;
+	public InventoryUIDetails inventoryDetailPanel;
 	public List<Item> playerItems = new List<Item> ();
 
 	// Use this for initialization
@@ -20,12 +22,21 @@ public class InventoryController : MonoBehaviour {
         }
         playerWeaponController = GetComponent<PlayerWeaponController>();
         consumableController = GetComponent<ConsumableController>();
+		GiveItem ("sword");
+		GiveItem ("potion_log");
 	}
 	
 	public void GiveItem(string itemSlug){
-		playerItems.Add (ItemDatabase.Instance.GetItem(itemSlug));
+		Item item = ItemDatabase.Instance.GetItem (itemSlug);
+		playerItems.Add (item);
 		Debug.Log ("player Items number"+playerItems.Count);
+		UIEventHandler.ItemAddedToInventory (item);
 	}
+
+	public void setItemDetails(Item item,Button selecedButton){
+		inventoryDetailPanel.SetItem (item,selecedButton);
+	}
+
 	public void EquipItem(Item itemToEquip){
 		playerWeaponController.EquipWeapon (itemToEquip);
 	}

@@ -12,6 +12,7 @@ public class PotionLog : MonoBehaviour,IConsumable {
     public void Consume(CharacterStats stats)
     {
         Debug.Log("you drink a coke and that give you one buff");
+		Destroy (gameObject);
     }
 
     // Use this for initialization

@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Inventory\Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\JSON\Items.json">
     <Files>
-      <File FileName="Assets\Scripts\Inventory\InventoryController.cs" Line="32" Column="50" />
-      <File FileName="Assets\Scripts\Inventory\Item.cs" Line="13" Column="70" />
-      <File FileName="Assets\Resources\JSON\Items.json" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Inventory\InventoryController.cs" Line="33" Column="44" />
+      <File FileName="Assets\Resources\JSON\Items.json" Line="35" Column="2" />
+      <File FileName="Assets\Scripts\UI\UIEventHandler.cs" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\Inventory\Item.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Inventory\InventoryUIDetails.cs" Line="17" Column="52" />
+      <File FileName="Assets\Scripts\Inventory\ItemDatabase.cs" Line="17" Column="10" />
+      <File FileName="Assets\Scripts\Consumable\PotionLog.cs" Line="15" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
