@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scripts\Interactable\NPCs\NPCs.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryUIDetails.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryUIItem.cs" />
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemDatabase.cs" />
