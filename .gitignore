@@ -6,3 +6,7 @@ Temp/
 *.userprefs
 *.unityproj
 *.DS_Store
+Assets/Scripts/Inventory/InventoryController.cs.meta
+Assets/Scripts/Inventory/ItemDatabase.cs.meta
+Assets/Scripts/UI/UIEventHandler.cs.meta
+*.meta
