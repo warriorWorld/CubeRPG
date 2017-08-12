@@ -15,7 +15,7 @@ public class CharacterStats : MonoBehaviour {
 	public void AddStatBonus(List<BaseStat> statBonuses){
 		foreach (BaseStat statBonus in statBonuses) {
 			//one sword equiped and sword's power is sword's power's basevalue add this basevalue to character's bonus power
-			stats.Find (x => x.StatName == statBonus.StatName).AddStatBonus (new StatBonus(statBonus.BaseValue));		;
+			stats.Find (x => x.StatName == statBonus.StatName).AddStatBonus (new StatBonus(statBonus.BaseValue));
 		}
 	}
 	public void RemoveStatBonus(List<BaseStat> statBonuses){
